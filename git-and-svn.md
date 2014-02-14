@@ -105,13 +105,13 @@ As with svn, before switching, you need to `commit` your changes. Remember that 
 It's very similar to our current approach, but there are two main branches:
 
  - instead of `trunk`, there is `develop`. 
- - instead of many release tags, there is `master` branch (with tags)
+ - the `master` branch (more below on it)
 
 ### The `master` branch
 
 The `master` branch is made up of only stable releases.
 
-Tags are used on `master` to identify those releases.
+Tags are used to identify releases.
 
 Changes to `master` are fewer and larger, and are only merges.
 
