@@ -27,6 +27,7 @@ We'll only routinely use a handful of those, and here are the ones we'll use in 
 4. clone      
     - Clone a repository into a new directory
     - like nothing you've ever seen before
+    - when you `clone`, use the `ssh` protocol instead of `https` or `git`
 5. commit     
     - Record changes to the repository
     - like `svn commit`, but local only
