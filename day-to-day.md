@@ -86,3 +86,7 @@ OK, so now, our `task-345` branch is also obsolete. It was useful for switching 
 
 	$ git branch -d task-345
 
+Now, we're all done for the day and can push our `develop` branch to the `origin` (remote) `develop` branch.
+
+	$ git push origin develop
+
