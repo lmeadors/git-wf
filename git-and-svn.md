@@ -295,6 +295,8 @@ Now, the 4 branches (`origin/scary`, `scary`, `origin/develop`, and `develop`) a
 
 That second command is non-intuitive. Here's how I think of it: Push *null* to the `scary` branch on `origin`.
 
+> NOTE: If someone else deletes a remote branch, you may still see references to it in `git branch -a` - if you do, you can clean up your local repository by running `git remote prune origin` - this will delete all stale remote-tracking branches under origin.
+
 To verify that the branches are as expected, you can ask git about ALL branches like this:
 
     $ git branch -a
